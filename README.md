@@ -4,7 +4,7 @@ Endicia
 A simple PHP wrapper for Endicia's API 
 
 ## Depends
-1. Comoser
+1. Composer
 2. Guzzle
 
 ## Installation 
