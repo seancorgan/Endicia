@@ -109,32 +109,5 @@ class Endicia {
 		}
 	} 
 
-}
-
-	$e = new Endicia('TESTREQ', '123456', 'PASSWORD');
-	// See Endicia Documentation for correct values.  Array Keys must match XML node name 
-	$data = array(
-		'MailClass' => 'Priority', 
-		'WeightOz' => 15,
-		'MailpieceShape' => 'Parcel', 
-		'Description' => 'Electronics', 
-		'FromName' => 'Vicki Raven',  
-		'ReturnAddress1' => '573 W Princeton Ave', 
-		'FromCity' => 'Gilbert', 
-		'FromState' => 'AZ', 
-		'FromPostalCode' => '85296', 
-		'FromZIP4' => '0004', 
-		'ToName' => 'Jerrry',
-		'ToCompany' => 'Jerry Industries',
-		'ToAddress1' => '230 E Jasper Ct',
-		'ToCity' => 'Gilbert',
-		'ToState' => 'Az',
-		'ToPostalCode' => '85296',
-		'ToZIP4' => '0004', 
-		'ToDeliveryPoint' => '00',
-		'ToPhone' => '2125551234'
-		  // 10 digits required including area code no punctuation. 
-	); 
-
-	$res = $e->request_shipping_label($data); 
+} 
 ?>
